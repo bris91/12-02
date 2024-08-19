@@ -26,13 +26,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
-'''
+```
 CREATE USER 'sys_temp'@'%' IDENTIFIED BY '12345'; 
 SELECT User,Host FROM mysql.user;
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';
 SHOW GRANTS FOR 'sys_temp'@'%'; 
 ALTER USER 'sys_temp'@'%' IDENTIFIED WITH mysql_native_password BY '123';
-'''
+```
 
 
 ## Задание 2
@@ -44,10 +44,10 @@ customer         | customer_id
 
 ![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.png)
 
-'''
+```
 USE sakila;
 SHOW TABLES;
-'''
+```
 ![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.1.png)
 
 # Дополнительные задания (со звёздочкой*)
@@ -61,7 +61,7 @@ SHOW TABLES;
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
-'''
+```
 REVOKE INSERT, ALTER, DELETE ON *.* FROM 'sys_temp'@'localhost';
 SHOW GRANTS FOR 'sys_temp'@'localhost';
-'''
+```
