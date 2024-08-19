@@ -24,6 +24,12 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
+
+![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.png)
+
+
+![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.1.png)
+
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
 ```
@@ -66,16 +72,6 @@ nicer_but_slower_film_list
 sales_by_film_category		
 sales_by_store		
 staff_list		
-```
-
-
-![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.png)
-
-```
-USE sakila;
-SHOW TABLES;
-```
-![alt text](https://github.com/bris91/12-02/blob/7f6dde96e741cafeb442761317e088053d52a6f5/T_2.1.png)
 
 # Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
